@@ -1,0 +1,63 @@
+.container {
+   max-width: 1230px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.btn-reset {
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+   padding: 0;
+}
+
+.btn {
+   padding: 20px 20px;
+   min-width: 180px;
+   font-weight: 600;
+   font-size: 17px;
+   line-height: 21px;
+   border-radius: 2px;
+
+   color: var(--dark-color);
+   background-color: var(--white-color);
+   transition: color .3s ease-in-out, background-color .3s ease-in-out
+}
+
+.btn--light {
+   color: var(--dark-color);
+   background-color: var(--white-color);
+}
+
+.btn--light:hover {
+   color: var(--white-color);
+   background-color: var(--dark-color);
+}
+
+
+.btn--dark {
+   color: var(--white-color);
+   background-color: var(--dark-color);
+}
+
+.btn--dark:hover {
+   color: var(--dark-color);
+   background-color: var(--grey-color);
+}
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   padding: 0;
+   overflow: hidden;
+   border: 0;
+   clip: rect(0 0 0 0);
+}
+
+.grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   column-gap: 60px;
+}
